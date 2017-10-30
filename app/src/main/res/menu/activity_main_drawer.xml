@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/data_pribadi"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Data Pribadi" />
+        <item
+            android:id="@+id/data_pendidikan"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Pendidikan" />
+        <item
+            android:id="@+id/data_karya"
+            android:icon="@drawable/ic_format_list_numbered_black_24dp"
+            android:title="Karya" />
+        <item
+            android:id="@+id/data_gambar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Galery"
+            />
+    </group>
+</menu>
